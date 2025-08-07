@@ -1,3 +1,5 @@
+@use "../util" as u;
+
 html {
   box-sizing: border-box;
 }
@@ -13,7 +15,7 @@ html {
 }
 
 body {
-  font-size: 0.938rem;
+  font-size: u.rem(15);
   line-height: 1.2;
 }
 
@@ -31,5 +33,3 @@ h1,
 h2 {
   font-weight: 600;
 }
-
-/*# sourceMappingURL=main.css.map */
