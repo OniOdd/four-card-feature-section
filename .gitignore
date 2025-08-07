@@ -41,6 +41,7 @@ Thumbs.db
 
 # Other
 design/
+styles/*.map
 example.html
 README.md
 style-guide.md
