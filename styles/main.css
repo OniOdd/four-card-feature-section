@@ -1,3 +1,27 @@
+/* ExtraLight */
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/poppins-extralight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+/* Regular */
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/poppins-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* SemiBold */
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/poppins-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   -clr-red: hsl(0, 78%, 62%);
   -clr-cyan: hsl(180, 62%, 55%);
@@ -24,7 +48,9 @@ html {
 }
 
 body {
+  font-family: "Poppins", system-ui, -apple-system, sans-serif;
   font-size: 0.938rem;
+  font-weight: 400;
   line-height: 1.2;
   color: var(-clr-grey-400);
   background-color: var(-bg-clr-main);
