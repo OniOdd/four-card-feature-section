@@ -17,6 +17,8 @@ html {
 body {
   font-size: u.rem(15);
   line-height: 1.2;
+  color: var(-clr-grey-400);
+  background-color: var(-bg-clr-main);
 }
 
 html,
@@ -32,4 +34,5 @@ img {
 h1,
 h2 {
   font-weight: 600;
+  color: var(-clr-grey-500);
 }

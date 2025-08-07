@@ -1,3 +1,14 @@
+:root {
+  -clr-red: hsl(0, 78%, 62%);
+  -clr-cyan: hsl(180, 62%, 55%);
+  -clr-orange: hsl(34, 97%, 64%);
+  -clr-blue: hsl(212, 86%, 64%);
+  -clr-grey-500: hsl(234, 12%, 34%);
+  -clr-grey-400: hsl(212, 6%, 44%);
+  -clr-white: hsl(0, 0%, 100%);
+  -bg-clr-main: hsl(0, 0%, 98%);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -15,6 +26,8 @@ html {
 body {
   font-size: 0.938rem;
   line-height: 1.2;
+  color: var(-clr-grey-400);
+  background-color: var(-bg-clr-main);
 }
 
 html,
@@ -30,6 +43,7 @@ img {
 h1,
 h2 {
   font-weight: 600;
+  color: var(-clr-grey-500);
 }
 
 /*# sourceMappingURL=main.css.map */
