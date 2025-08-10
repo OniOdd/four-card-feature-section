@@ -1,11 +1,13 @@
 :root {
-  -clr-red: hsl(0, 78%, 62%);
-  -clr-cyan: hsl(180, 62%, 55%);
-  -clr-orange: hsl(34, 97%, 64%);
-  -clr-blue: hsl(212, 86%, 64%);
-  -clr-grey-500: hsl(234, 12%, 34%);
-  -clr-grey-400: hsl(212, 6%, 44%);
-  -clr-white: hsl(0, 0%, 100%);
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-blue: hsl(212, 86%, 64%);
+  --clr-grey-500: hsl(234, 12%, 34%);
+  --clr-grey-400: hsl(212, 6%, 44%);
+  --clr-white: hsl(0, 0%, 100%);
 
-  -bg-clr-main: hsl(0, 0%, 98%);
+  --bg-clr-main: hsl(0, 0%, 98%);
+
+  --box-shadow-main: 0 20px 30px hsla(212, 86%, 64%, 0.2);
 }
